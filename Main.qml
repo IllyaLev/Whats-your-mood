@@ -1,8 +1,17 @@
 import QtQuick
+import QtQuick.Controls
+
 
 Window {
-    width: 640
-    height: 480
+    id: mainWindow
+
+    minimumWidth: 800
+    maximumWidth: 800
+
+    minimumHeight: 600
+    maximumHeight: 600
+
     visible: true
-    title: qsTr("Hello World")
+    flags: Qt.FramelessWindowHint
+
 }
